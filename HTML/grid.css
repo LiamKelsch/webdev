@@ -1,3 +1,7 @@
+body {
+    background-color: gray;
+}
+
 #grid-two {
     margin: 50px;
     height: 500px;
@@ -5,9 +9,85 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(4,125px);
-    }
+}
 
 #red {
     background-color:red;
-    
+    grid-column: 2 / 4;
+    grid-row: 3 / -1;
+}
+
+#blue {
+    background-color: blue;
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+}
+
+#purple {
+    background-color: purple;
+    grid-column: 1 / 2;
+    grid-row: 1 / -1;
+}
+
+#yellow {
+    background-color: yellow;
+    grid-column: 2 / 3;
+    grid-row: 1 / 4;
+}
+
+#japan {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height: 300px;
+    width: 400px;
+    background-color: white;
+}
+
+#japan-red {
+    background-color: red;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    border-radius: 50%;
+}
+
+#italy{
+    margin: 50px;
+    height: 500px;
+    width: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3,125px);
+}
+
+#igreen{
+    background-color: green;
+    grid-column: 1 / 2;
+    grid-row: 1 / -1;
+}
+
+#iwhite{
+    background-color: white;
+    grid-column: 2 / 3;
+    grid-row: 1 / -1;
+}
+
+#ired{
+    background-color: red;
+    grid-column: 3 / 4;
+    grid-row: 1 / -1;
+}
+#german{
+margin: 50px;
+height: 500px;
+width: 700px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: repeat(3,125px);
+}
+
+#gblack{
+    background-color: black;
+    grid-column: 3 / 4;
+    grid-row: 1 / -1;
 }
