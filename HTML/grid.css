@@ -1,0 +1,13 @@
+#grid-two {
+    margin: 50px;
+    height: 500px;
+    width: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(4,125px);
+    }
+
+#red {
+    background-color:red;
+    
+}
